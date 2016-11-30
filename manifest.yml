@@ -1,0 +1,10 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: BBBY-Demo
+  host: BBBY-Demo
+  disk_quota: 1024M
+  services:
+  - BBBY-Demo-personality_insights
